@@ -1,13 +1,13 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
-  title: Cap Libecap
+  title: Design Mind
   description: |
-    Graphic Designer based in Ottawa, Ontario.
-  font_url: "https://use.typekit.net/fgq6wuf.css"
+    A Graphic Design Search Web App
+  font_url: "https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap"
   layouts:
     default: |
-      The default layout should be used for almost every page, it includes the website's primary header & footer.
+      sadfas
   colors:
     background: "--color-background"
     accent: "--color-primary"
@@ -15,18 +15,18 @@ patternbot:
       brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Kepler extended is used because it has a heavier weight and slightly more spacing between the characters, making it a good typeface to use on a dark background.
+      It is a clean sans serif that looks professional and easy to read
     colors.primary: |
-      The primary colour is white. This is so there is high contrast with the text and background colour.
+      Is calm, professional, and looks reliable
     colors.secondary: |
-      The secondary colour is a kind of turquoise just to be used occasionally for accents
+      Complementary colour to primary colour and stands out as for call to actions
     colors.additional: |
-      These colours are used to aid and enhance the primary and secondary colours.
-collections:
-    products:
-        output: true
-defaults:
-  - scope:
-      path: _products
-    values:
-      layout: product
+      accents of the primary colour allow us to create heirarchy through colour
+# collections:
+#     products:
+#         output: true
+# defaults:
+#   - scope:
+#       path:
+#     values:
+#       layout:

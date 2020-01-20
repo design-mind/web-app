@@ -1,0 +1,95 @@
+:root {
+  --color-primary: #000;
+  --color-secondary: #81d4fa;
+  --color-secondary-light: #b6ffff;
+  --color-highlight: #ea7200;
+  --color-secondary-dark: #4ba3c7;
+  --font-primary: Montserrat, sans-serif;
+  --font-secondary: "Libre Baskerville", serif;
+  --color-background: #fff;
+}
+
+html {
+  font-family: var(--font-primary);
+ }
+
+
+main {
+
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-secondary-light);
+}
+
+h3, h4 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color: var(--color-orange);
+}
+
+h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  letter-spacing: .25px;
+}
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+a {
+  color: #e2e2e2;
+}
+
+b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+ol, ul, dl, q, th {
+  font-family: var(--font-primary);
+  color: var(--color-orange-light);
+}
+
+dd {
+  font-family: var(--font-primary);
+  color: var(--color-orange-light);
+}
+
+dt {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-light);
+
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid #ffbd94;
+}

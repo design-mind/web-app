@@ -1,22 +1,22 @@
 title: "Cards"
 description: |
-  The form can be used when creating a product description. Use corresponding icon with product description
+  This is where you can find card layouts designed for different content
 
 patterns:
-  figure:
-    title: "figure with caption"
+  contact-cards:
+    title: "Contact Cards"
     description: |
-      Use this type of card for products
+      Use this type of card to display information about the designer or agency
     fields:
       - name: name
         type: string
-        example: "Figure header"
+        example: "Qoncept Studio"
       - name: company-description
         type: string
-        example: "Qoncept Studio"
+        example: "Print Designers - UI Designers"
       - name: from
         type: string
-        example: "Print Designers - UI Designers"
+        example: "Ottawa, Ontario"
       - name: since
         type: string
         example: "September 2019"
@@ -28,7 +28,7 @@ patterns:
         example: "Branding - 4 days ago"
       - name: image
         type: url
-        example: "/images/placeholder-1by1.svg"
+        example: "/images/3by2.png"
       - name: aria-details
         type: string
         example: "Assign non-visible text to enhance the description of an element"
@@ -38,4 +38,4 @@ patterns:
       - name: alt-text
         type: string
         example: "Assign the description to an image if necessary"
-    width: "20em"
+    # width: "20em"

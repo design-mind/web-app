@@ -1,0 +1,7 @@
+.info-container {
+  background: rgb(21,153,173);
+  background: -webkit-linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
+  background: -o-linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
+  background: linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
+
+}

@@ -1,0 +1,19 @@
+title: "Footer"
+description: |
+  To be used once per page to provide copyright and contact info
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      Basic footer
+    fields:
+      - name: social
+        type: string
+        example: "Facebook"
+      - name: icon
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: link
+        type: url
+        example: "https://wwww.facebook.com"

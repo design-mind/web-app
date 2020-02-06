@@ -1,40 +1,38 @@
-.btn {
-  box-shadow: inset 1px 1px 0px 0px #ffffff;
+.btn-primary {
   background: linear-gradient(to bottom, #4ba3c7 5%, #81d4fa 100%);
-  background-color: #81d4fa;
+  border-color: var(--color-secondary);
   border-radius: 9px;
-  display: inline-block;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
+  color: #fff;
   font-weight: bold;
-  padding: 18px 30px;
-  text-decoration: none;
+  /* padding: 18px 30px; */
   }
 
 .btn:hover {
   background: linear-gradient(to bottom, #81d4fa 5%, #4ba3c7 100%);
   background-color: #81d4fa;
+  border-color: var(--color-secondary);
+  color:#fff;
+  font-weight: bold;
+  box-shadow: none;
   }
 
-.btn:active, .btn-dark:active, .btn-ghost:active {
-  position: relative;
-  top: 1 px;
-}
-
 .btn-dark {
-  background-color: #000000;
-  border-radius: 12px;
-  border: 3px solid #0000000;
-  display: inline-block;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
+  background-color: var(--color-primary);
+  border-color: var(--color-secondary);
+  border-radius: 9px;
+  color: #fff;
   font-weight: bold;
-  padding: 10px 40px;
+  padding: 18px 30px;
+  }
+/* .btn-dark {
+  background-color: #000000;
+  border-radius: 9px;
+  color: #ffffff;
+  font-weight: bold;
+  /* padding: 10px 40px; */
   text-decoration: none;
   text-shadow: 0px 1px 0px #b14400;
-}
+} */
 
 .btn-dark:hover {
   background-color: #ea7200;
@@ -42,15 +40,11 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-radius: 12px;
-  border: 3px solid #ffffff;
+  border-radius: 9px;
   border-color: #81d4fa;
-  display: inline-block;
   color: #81d4fa;
-  font-family: Arial;
-  font-size: 15px;
   font-weight: bold;
-  padding: 10px 40px;
+  /* padding: 10px 40px; */
   text-decoration: none;
   text-shadow: 0px 1px 0px #b14400;
 }

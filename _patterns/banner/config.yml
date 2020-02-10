@@ -24,7 +24,7 @@ patterns:
         required: false
       - name: banner_img
         type: url
-        example: "/placeholder-16by9.svg"
+        example: "/images/placeholder-16by9.svg"
 
   hero-banner:
     title: "hero"
@@ -47,4 +47,4 @@ patterns:
         required: false
       - name: banner_img
         type: url
-        example: "/placeholder-16by9.svg"
+        example: "/images/placeholder-16by9.svg"

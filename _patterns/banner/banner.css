@@ -5,7 +5,7 @@
 .main-banner {
   color: #fff;
   height: 100vh;
-  background-image: url("/placeholder-16by9.svg");
+  background-image: url("/images/placeholder-16by9.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -15,7 +15,7 @@
 .hero-banner {
   color: var(--color-secondary);
   height: 80vh;
-  background-image: url("/placeholder-16by9.svg");
+  background-image: url("/images/placeholder-16by9.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;

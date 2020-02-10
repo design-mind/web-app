@@ -10,4 +10,4 @@ patterns:
     fields:
       - name: logo
         type: url
-        example: "/images/placeholder-1by1.svg"
+        example: "/images/design-mind-logo.svg"

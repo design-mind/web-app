@@ -1,0 +1,41 @@
+.social {
+  font-weight: 600;
+}
+
+.contentinfo {
+  background-color: #000;
+}
+
+.contentinfo li {
+  color: #fff;
+}
+
+
+.copyright li {
+  color: var(--color-secondary-light);
+}
+
+.social li {
+  display: block;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    text-align: center;
+  }
+
+  .social li {
+    width: 24%;
+  }
+
+}

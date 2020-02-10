@@ -38,4 +38,19 @@ patterns:
       - name: alt-text
         type: string
         example: "Assign the description to an image if necessary"
-    # width: "20em"
+
+  description:
+    title: "Detail Headers"
+    description: |
+      Use when wanting to showcase interesting point.
+    fields:
+      - name: header
+        type: string
+        example: "Why People Like Us"
+      - name: subheader
+        type: string
+        example: "Designer Focused"
+      - name: description
+        type: string
+        example: "No undercutting, no bidding for projects, no spec work."
+    width: "40em"

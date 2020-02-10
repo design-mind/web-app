@@ -6,6 +6,11 @@
 
 }
 
+.description h2, h3, p {
+ color: var(--color-secondary-dark);
+ display: block;
+}
+
 .description h2 {
  color: var(--color-secondary-dark);
  font-weight: bold;

@@ -33,7 +33,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Connect. Build. Grow."
+        example: "Results"
       - name: text
         type: string
         example: "Experience Better Design Now"

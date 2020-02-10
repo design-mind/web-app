@@ -54,3 +54,27 @@ patterns:
         type: string
         example: "No undercutting, no bidding for projects, no spec work."
     width: "40em"
+
+  results-card:
+    title: "Contact Cards"
+    description: |
+      Use this type of card to display results from form user filled out
+    fields:
+      - name: name
+        type: string
+        example: "Qoncept Studio"
+      - name: type
+        type: string
+        example: "Print Designer - Web Designer"
+      - name: image
+        type: url
+        example: "/images/3by2.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"

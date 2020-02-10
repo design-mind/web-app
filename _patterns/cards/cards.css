@@ -10,3 +10,7 @@
  color: var(--color-secondary-dark);
  font-weight: bold;
 }
+
+.description {
+  background-color: var(--color-secondary-light);
+}

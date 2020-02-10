@@ -24,7 +24,7 @@ patterns:
         required: false
       - name: banner_img
         type: url
-        example: "/placeholder-16by9.svg"
+        example: "/images/placeholder-16by9.svg"
 
   hero-banner:
     title: "hero"
@@ -33,7 +33,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Connect. Build. Grow."
+        example: "Results"
       - name: text
         type: string
         example: "Experience Better Design Now"
@@ -47,4 +47,4 @@ patterns:
         required: false
       - name: banner_img
         type: url
-        example: "/placeholder-16by9.svg"
+        example: "/images/placeholder-16by9.svg"

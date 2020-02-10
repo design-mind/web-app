@@ -5,21 +5,43 @@
 .main-banner {
   color: #fff;
   height: 100vh;
-  background-image: url("/placeholder-16by9.svg");
+  background-image: url("/images/placeholder-16by9.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: bottom;
+  background-position: top;
 }
 
 .hero-banner {
   color: var(--color-secondary);
   height: 80vh;
-  background-image: url("/placeholder-16by9.svg");
+  background-image: url("/images/placeholder-16by9.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   /* background-position: left bottom; */
-  background-position: -20px 50px;
+  background-position: top;
   overflow: hidden;
+}
+
+.banner-title {
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.main-title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+}
+
+.hero-title {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
 }

@@ -1,0 +1,41 @@
+.horizontal-nav ul li {
+  padding: 0, 2em;
+}
+
+.nav:hover {
+  color: var(--color-secondary);
+}
+
+.horizontal-nav {
+  background-color: #fff;
+}
+
+/* .current {
+  background-color: var(--color-primary);
+} */
+
+.current a {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.logo {
+  display: inline;
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.logo:hover  {
+  color: var(--color-highlight);
+  border-color: var(--color-highlight);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    font-size: 1.0309rem;
+  }
+
+}

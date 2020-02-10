@@ -1,0 +1,50 @@
+title: "Banner"
+description: |
+  Use for call to action and hero banners
+
+patterns:
+  main-banner:
+    title: "Main"
+    description: |
+      Use this banner for the home page
+    fields:
+      - name: heading
+        type: string
+        example: "Connect. Build. Grow."
+      - name: text
+        type: string
+        example: "Experience Better Design Now"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/index/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/placeholder-16by9.svg"
+
+  hero-banner:
+    title: "hero"
+    description: |
+      Use this banner for secondary page. it is slightly shorter to show the content below
+    fields:
+      - name: heading
+        type: string
+        example: "Connect. Build. Grow."
+      - name: text
+        type: string
+        example: "Experience Better Design Now"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/index/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/placeholder-16by9.svg"

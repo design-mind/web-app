@@ -1,36 +1,40 @@
-<article class= "grid grid-middle">
-  <div class="unit unit-xs-1 s-1 m-1-2 l-1-2">
-    <div class="embed embed-1by1">
+<article class= "grid">
+  <div class="unit unit-xs-1 s-1 m-1 l-1-2 island">
+    <div class="embed embed-3by2">
       <img class="embed-item" aria-details="#{{include.aria-details}}" src="{{include.image}}" alt="{{include.alt-text}}">
     </div>
     <div class="info-container">
       <div class="company-name island-1-2">
-        <h2>{{include.name}}</h2>
-        <p>{{include.company-description}}</p>
-        <button>Contact Me</button>
-      </div>
-      <div class="company-info island-1-2">
-        <div class="grid grid-middle">
-          <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
-            <p>From</p>
-            <p>Member Since</p>
-            <p>Average Response Time</p>
-            <p>Recent Project</p>
+        <div class="island-1-2">
+          <h2>{{include.name}}</h2>
+          <p>{{include.company-description}}</p>
+          <div class="pad-t">
+            <button>Contact Me</button>
           </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
-            <p><strong>{{include.from}}</strong></p>
-            <p><strong>{{include.since}}</strong></p>
-            <p><strong>{{include.response}}</strong></p>
-            <p><strong>{{include.recent}}</strong></p>
+        </div>
+        <div class="company-info gutter-1-2">
+          <div class="grid grid-middle">
+            <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+              <p class="milli">From</p>
+              <p class="milli">Member Since</p>
+              <p class="milli">Average Response Time</p>
+              <p class="milli">Recent Project</p>
+            </div>
+            <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+              <p class="milli"><strong>{{include.from}}</strong></p>
+              <p class="milli"><strong>{{include.since}}</strong></p>
+              <p class="milli"><strong>{{include.response}}</strong></p>
+              <p class="milli"><strong>{{include.recent}}</strong></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="unit unit-xs-1 s-1 m-1-2 l-1-2 gutter">
+  <div class="unit unit-xs-1 s-1 m-1 l-1-2 island">
     <div class="grid">
-      <div class="unit unit-xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
-        <div class="embed embed-3by2">
+      <div class="unit unit-xs-1 s-1 m-1 l-1 pad-b">
+        <div class="embed embed-1by1">
           <img class="embed-item" aria-details="#{{include.aria-details}}" src="{{include.image}}" alt="{{include.alt-text}}">
         </div>
       </div>
@@ -39,14 +43,14 @@
           <img class="embed-item" aria-details="#{{include.aria-details}}" src="{{include.image}}" alt="{{include.alt-text}}">
         </div>
       </div>
-      <div class="unit unit-xs-1 s-1 m-1 l-1 pad-t-2 gutter-1-4">
+      <div class="unit unit-xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
         <div class="embed embed-3by2">
           <img class="embed-item" aria-details="#{{include.aria-details}}" src="{{include.image}}" alt="{{include.alt-text}}">
         </div>
       </div>
     </div>
   </div>
-  <div>
+  <div class="gutter">
     <button type="button" name="button">Back to search</button>
   </div>
 </article>

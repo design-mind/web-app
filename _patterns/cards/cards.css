@@ -1,17 +1,18 @@
 .info-container {
-  background: rgb(21,153,173);
-  background: -webkit-linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
-  background: -o-linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
-  background: linear-gradient(rgba(21,153,173,1) 35%, rgba(255,255,255,1) 87%);
-
+  background: var(--color-secondary-light);
 }
 
-.description h2, h3, p {
- color: var(--color-secondary-dark);
+.description p {
+ color: var(--color-primary);
  display: block;
 }
 
 .description h2 {
+ color: var(--color-secondary-dark);
+ font-weight: bold;
+}
+
+.company-name h2 {
  color: var(--color-secondary-dark);
  font-weight: bold;
 }

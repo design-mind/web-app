@@ -8,12 +8,39 @@ patterns:
     description: |
       Basic footer
     fields:
-      - name: social
+      - name: social1
         type: string
         example: "Facebook"
-      - name: icon
+      - name: icon1
         type: url
         example: "/images/placeholder-1by1.svg"
-      - name: link
+      - name: link1
+        type: url
+        example: "https://wwww.facebook.com"
+      - name: social2
+        type: string
+        example: "Facebook"
+      - name: icon2
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: link2
+        type: url
+        example: "https://wwww.facebook.com"
+      - name: social3
+        type: string
+        example: "Facebook"
+      - name: icon3
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: link3
+        type: url
+        example: "https://wwww.facebook.com"
+      - name: social4
+        type: string
+        example: "Facebook"
+      - name: icon4
+        type: url
+        example: "/images/placeholder-1by1.svg"
+      - name: link4
         type: url
         example: "https://wwww.facebook.com"

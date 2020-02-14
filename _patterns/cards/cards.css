@@ -6,9 +6,13 @@
 
 }
 
-.description h2, h3, p {
- color: var(--color-secondary-dark);
- display: block;
+.description h3, p {
+ color: var(--color-primary);
+ /* display: inline-block; */
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .description h2 {

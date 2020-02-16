@@ -3,7 +3,7 @@
 }
 
 .contentinfo {
-  background-color: #000;
+  background-color: var(--color-secondary-dark);
 }
 
 .contentinfo li {
@@ -19,6 +19,13 @@
   display: block;
 }
 
+.social-media {
+  color: var(--color-primary);
+}
+
+.colors:hover {
+  fill: blue;
+}
 
 @media only screen and (min-width: 38em) {
 

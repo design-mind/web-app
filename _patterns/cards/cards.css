@@ -2,9 +2,13 @@
   background: var(--color-secondary-light);
 }
 
-.description p {
+.description h3, p {
  color: var(--color-primary);
- display: block;
+ /* display: inline-block; */
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .description h2 {

@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% pattern banner/hero-banner heading="Find Your Designer Today!" text="Experience Better Design Now" banner_img="/images/placeholder-16by9.svg" %}
+
+<!-- <div class="grid grid-middle">
+  <div class="unit-content-center unit unit xs-1 s-1-2 m-1-2 l-1-2 text-center">
+    <div class="island" style="max-width: 15em">
+      <div class="embed embed-1by1">
+        <img class="embed-item" aria-details="#{{include.aria-details}}" src="/images/3by2.png" alt="{{include.alt-text}}">
+      </div>
+      <div class="">
+        {% pattern buttons/dark text="Search Designers" url="#" %}
+      </div>
+    </div>
+
+  </div>
+  <div class="unit-content-center unit unit xs-1 s-1-2 m-1-2 l-1-2 text-center">
+    <div class="island" style="max-width: 15em">
+      <div class="embed embed-1by1">
+        <img class="embed-item" aria-details="#{{include.aria-details}}" src="/images/3by2.png" alt="{{include.alt-text}}">
+      </div>
+      <div class="">
+        {% pattern buttons/dark text="Search Agencies" url="agencies" %}
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="grid wrapper pad-t-2 pad-b push">
+  <div class="island-1-4 unit unit-s-1">
+    <h1>Please fill out this form </h1>
+    <h3>Select One</h3>
+    {% pattern forms/radio radio1="Agency" radio2="Freelance" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+  {% pattern forms/main name="First Name" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+    {% pattern forms/main name="Email" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+    {% pattern forms/main name="City" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+    {% pattern forms/list lists="Province" option1="Alberta" option2="British Colombia" option3="New Brunswick" option4="Newfoundland and Labrador" option5="Nova Scotia" option6="Ontario" option7="Prince Edward Island" option8="Saskatchewan" option9="Québec" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+    {% pattern forms/list lists="Design Category" option1="Print" option2="UX/UI" option3="Branding" option4="Web Design" option5="Packaging" option6="Motion" option7="Illustration" %}
+  </div>
+  <div class="island-1-4 unit unit-s-1-2">
+    {% pattern forms/list lists="Price Range" option1="$" option2="$$" option3="$$$" option4="$$$$" option5="$$$$$"%}
+  </div>
+  <div class="island-1-4 unit unit-s-1">
+    {% pattern buttons/dark text="See Results" url="designer-result" %}
+  </div>
+</div>

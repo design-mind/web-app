@@ -1,0 +1,64 @@
+description: |
+  The forms are to be used to showcase the websites most important features.
+
+patterns:
+  comment:
+    title: "Comment"
+    fields:
+      - name: label
+        type: string
+        example: "Have a question?"
+  date:
+    title: "Date"
+  list:
+    title: "List"
+    fields:
+      - name: lists
+        type: string
+        example: "Province"
+      - name: option0
+        type: string
+        example: "Select an option below"
+      - name: option1
+        type: string
+        example: "Alberta"
+      - name: option2
+        type: string
+        example: "British Colombia"
+      - name: option3
+        type: string
+        example: "New Brunswick"
+      - name: option4
+        type: string
+        example: "Newfoundland and Labrador"
+      - name: option5
+        type: string
+        example: "Nova Scotia"
+      - name: option6
+        type: string
+        example: "Ontario"
+      - name: option7
+        type: string
+        example: "Prince Edward Island"
+      - name: option8
+        type: string
+        example: "Saskatchewan"
+      - name: option9
+        type: string
+        example: "Québec"
+
+  main:
+    title: "Main"
+    fields:
+      - name: name
+        type: string
+        example: "First Name"
+  radio:
+    title: "Radio"
+    fields:
+      - name: radio1
+        type: string
+        example: "Yes"
+      - name: radio2
+        type: string
+        example: "Yes"

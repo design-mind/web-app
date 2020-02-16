@@ -4,7 +4,7 @@ patternbot:
   title: Design Mind
   description: |
     A Graphic Design Search Web App
-  font_url: "https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400,500,700&display=swap"
   layouts:
     default: |
       sadfas

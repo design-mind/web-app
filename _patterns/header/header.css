@@ -27,9 +27,17 @@
   font-size: 1rem;
 }
 
+.design-logo {
+  text-align: center;
+}
+
 .logo:hover  {
   color: var(--color-highlight);
   border-color: var(--color-highlight);
+}
+
+.menu {
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
@@ -38,4 +46,15 @@
     font-size: 1.0309rem;
   }
 
+}
+
+@media only screen and (min-width: 38em) {
+
+  .design-logo {
+    text-align: left;
+  }
+
+  .menu {
+    text-align: right;
+  }
 }
